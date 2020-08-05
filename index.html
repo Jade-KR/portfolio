@@ -19,22 +19,22 @@
   <nav id="navbar">
     <div class="navbar__logo">
       <i class="far fa-address-card"></i>
-      <a href="#">Jade</a>
+      <a href="#">김정덕(Jade)</a>
     </div>
     <div class="navbar__menu">
       <ul class="navbar__menu">
-        <li class="navbar__menu_item">Home</li>
-        <li class="navbar__menu_item">About</li>
-        <li class="navbar__menu_item">Skills</li>
-        <li class="navbar__menu_item">My works</li>
-        <li class="navbar__menu_item">Contact</li>
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My works</li>
+        <li class="navbar__menu__item">Contact</li>
       </ul>
     </div>
   </nav>
   <!-- Home -->
   <section id="home">
-    <img src="imgs/profile.png" alt="Jade's profile photo" class="home__avatar">
-    <h1 class="home__title">Hello, <br>I'm Jade</h1>
+    <img src="images/profile.jpg" alt="Jade's profile photo" class="home__avatar">
+    <h1 class="home__title">사려깊고 꾸준히 발전하는 개발자 <br>김정덕(Jade)</h1>
     <h2 class="home__description"></h2>
     <button class="home__contact">Contact Me</button>
   </section>
@@ -43,17 +43,32 @@
     <h1>
       About me
     </h1>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, doloremque molestias quidem, optio pariatur ea
-      adipisci eius praesentium earum delectus, aperiam laudantium facere nihil! Ut corrupti iusto consequuntur unde
-      voluptatem.</p>
-    <div class="about__majors"></div>
-    <div class="about__majors"></div>
-    <div class="about__majors"></div>
+    <p>삼성 소프트웨어 아카데미(SSAFY)에서 1년간 웹 개발 공부를 하며 레고인을 위한 SNS, 맛집 추천 서비스, 1인 음식 배달 서비스 등 다양한 프로젝트를 경험했으며, 프론트엔드에 관심이 많습니다.
+    </p>
+    <div class="about__majors">
+      <div class="major"></div>
+      <div class="major__icon"></div>
+      <div class="major__title"></div>
+      <div class="major__description"></div>
+    </div>
+    <div class="about__majors">
+      <div class="major"></div>
+      <div class="major__icon"></div>
+      <div class="major__title"></div>
+      <div class="major__description"></div>
+    </div>
     <div class="about__jobs">
       <div class="job">
-        <img src="" alt="job__logo">
+        <img src="images/ssafy.png" alt="ssafy">
         <p class="job__name">SSAFY</p>
         <p class="job__period">2019 July - 2020 July</p>
+        <p class="awards">
+          <ul class="awards">
+            <li class="award__item">심화 프로젝트 전국 3등</li>
+            <li class="award__item">심화 프로젝트 지역 1등</li>
+            <li class="award__item">특화 프로젝트 지역 1등</li>
+          </ul>
+        </p>
       </div>
     </div>
   </section>
@@ -61,8 +76,8 @@
   <section id="skills">
     <h1>Skills</h1>
     <h2>Skills & Attributes</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id maiores tenetur ducimus aliquam iusto perferendis
-      tempore est quibusdam, dolorum deserunt quaerat, eos quisquam eveniet, nostrum et hic optio doloremque voluptatum!
+    <p>전체적인 프로젝트 진행과정에 대해서 경험이 있고 새로운 것을 배우는 데 관심 있고 팀 환경에서 일하거나 혼자서 일할 수도 있습니다. 그리고 계획을 세우고 시간을 잘 지키고 스트레스가 있어도 잘 적응할 수
+      있습니다.
     </p>
     <div class="skillset">
       <div class="skillset__left">
@@ -137,11 +152,25 @@
       <button class="category__btn">Vue <span class="category__count"></span></button>
     </div>
     <div class="work__projects">
-      <a href="#" class="project" target="blank">
+      <a href="https://github.com/Jade-KR" class="project" target="blank">
         <img src="" alt="">
         <div class="project__description">
-          <h3>Youtube site</h3>
-          <span>Clone coding with HTML and CSS</span>
+          <h3>Let It Go (레고인을 위한 SNS)</h3>
+          <span></span>
+        </div>
+      </a>
+      <a href="https://github.com/Jade-KR" class="project" target="blank">
+        <img src="" alt="">
+        <div class="project__description">
+          <h3>Food Curation (맛집 추천 서비스)</h3>
+          <span></span>
+        </div>
+      </a>
+      <a href="https://github.com/Jade-KR" class="project" target="blank">
+        <img src="" alt="">
+        <div class="project__description">
+          <h3>반반한 동네 (1인 음식 배달 서비스)</h3>
+          <span></span>
         </div>
       </a>
     </div>
