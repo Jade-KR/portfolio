@@ -39,11 +39,12 @@
     <button class="home__contact">Contact Me</button>
   </section>
   <!-- About -->
-  <section id="about" class="section">
+  <section id="about" class="section section__container">
     <h1>
       About me
     </h1>
-    <p>삼성 소프트웨어 아카데미(SSAFY)에서 1년간 알고리즘, 웹 개발 공부를 하였고, 레고인을 위한 SNS, 맛집 추천 서비스, 1인 음식 배달 서비스 등 다양한 프로젝트를 경험이 있으며, 프론트엔드에
+    <p>삼성 소프트웨어 아카데미(SSAFY)에서 1년간 알고리즘, 웹 개발 공부를 하였고, 레고인을 위한 SNS, 맛집 추천 서비스, 1인 음식 배달 서비스 등 <br>다양한 프로젝트를 경험이 있으며,
+      프론트엔드에
       관심이
       많습니다.
     </p>
@@ -66,7 +67,7 @@
       <div class="job">
         <img src="images/ssafy.png" alt="ssafy" class="job__logo">
         <div class="job__description">
-          <p class="job__name">웹 개발에 필요한 지식들을 배우고 배운 내용을 활용하여 다양한 프로젝트를 수행</p>
+          <p class="job__name">SW 필수 지식 및 알고리즘 중심의 몰입형 코딩 교육을 바탕으로 실전 SW 프로젝트 수행</p>
           <p class="job__period">2019 July - 2020 July</p>
         </div>
       </div>
@@ -74,73 +75,89 @@
   </section>
   <!-- Skills -->
   <section id="skills" class="section">
-    <h1>Skills</h1>
-    <h2>Skills & Attributes</h2>
-    <p>전체적인 프로젝트 진행과정에 대해서 경험이 있고 새로운 것을 배우는 데 관심 있고 팀 환경에서 일하거나 혼자서 일할 수도 있습니다. 그리고 계획을 세우고 시간을 잘 지키고 스트레스가 있어도 잘 적응할 수
-      있습니다.
-    </p>
-    <div class="skillset">
-      <div class="skillset__left">
-        <h3 class="skillset__title">Skills</h3>
-        <div class="skill_description">
-          <span>HTML</span>
-          <span>90%</span>
+    <div class="section__container">
+      <h1>Skills</h1>
+      <h2>Skills & Attributes</h2>
+      <p>전체적인 프로젝트 진행과정에 대해서 경험이 있고 새로운 것을 배우는 데 관심 있고 팀 환경에서 일하거나 혼자서 일할 수도 있습니다. 그리고 계획을 세우고 시간을 잘 지키고 스트레스가 있어도 잘 적응할
+        수
+        있습니다.
+      </p>
+      <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset__title">Skills</h3>
+          <div class="skill">
+            <div class="skill__description">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width:90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>CSS</span>
+              <span>85%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width:85%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>JavaScript</span>
+              <span>83%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width:83%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Vue</span>
+              <span>80%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width:80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Python</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width:90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Django</span>
+              <span>70%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width:70%;"></div>
+            </div>
+          </div>
         </div>
-        <div class="skill__bar">
-          <div class="skill__value"></div>
-        </div>
-        <div class="skill_description">
-          <span>CSS</span>
-          <span>85%</span>
-        </div>
-        <div class="skill__bar">
-          <div class="skill__value"></div>
-        </div>
-        <div class="skill_description">
-          <span>JavaScript</span>
-          <span>83%</span>
-        </div>
-        <div class="skill__bar">
-          <div class="skill__value"></div>
-        </div>
-        <div class="skill_description">
-          <span>Vue</span>
-          <span>80%</span>
-        </div>
-        <div class="skill__bar">
-          <div class="skill__value"></div>
-        </div>
-        <div class="skill_description">
-          <span>Python</span>
-          <span>90%</span>
-        </div>
-        <div class="skill__bar">
-          <div class="skill__value"></div>
-        </div>
-        <div class="skill_description">
-          <span>Django</span>
-          <span>70%</span>
-        </div>
-        <div class="skill__bar">
-          <div class="skill__value"></div>
-        </div>
-      </div>
-      <div class="skillset__right">
-        <div class="tools">
-          <h3 class="skillset__title">Tools</h3>
-          <ul class="tools__list">
-            <li><span>Visual Studio Code</span></li>
-          </ul>
-        </div>
-        <div class="etc">
-          <h3 class="skillset__title">Etc</h3>
-          <ul class="etc__list">
-            <li><span>Git</span></li>
-            <li><span>Jira</span></li>
-          </ul>
+        <div class="skillset__right">
+          <div class="tools">
+            <h3 class="skillset__title">Tools</h3>
+            <ul class="tools__list">
+              <li><span>Visual Studio Code</span></li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset__title">Etc</h3>
+            <ul class="etc__list">
+              <li><span>Git</span></li>
+              <li><span>Jira</span></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
   </section>
   <!-- Work -->
   <section id="work" class="section">
