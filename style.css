@@ -18,7 +18,7 @@
   --color-dark-brown: #3d313f;
   --color-dark-blue: rgb(112, 152, 177);
   --color-sand: #dcc1b0;
-  --color-dark-sand: rgb(204, 174, 155);
+  --color-dark-sand: rgb(209, 174, 149);
   --color-green: #14b09b;
 
   /* Font size */
@@ -100,7 +100,7 @@ p {
 
 /* Navbar */
 #navbar {
-  display: fixed;
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -109,6 +109,12 @@ p {
   color: var(--color-white);
   padding: 16px;
   z-index: 1;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-sand);
+  padding: 8px;
 }
 
 .navbar__menu {
@@ -133,7 +139,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-  background-color: var(--color-sand);
+  background-color: var(--color-dark-sand);
 }
 
 .navbar__toggle-btn {
@@ -344,7 +350,7 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-brown);
+  background-color: var(--color-dark-sand);
 }
 
 .contact__title,
@@ -415,7 +421,7 @@ p {
     margin-bottom: 38px;
   }
 
-  skillset {
+  .skillset {
     flex-direction: column;
   }
 
